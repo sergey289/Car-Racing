@@ -1,0 +1,11 @@
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\obj\Debug\Car racing.csproj.GenerateResource.cache
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\obj\Debug\Car racing.csproj.CoreCompileInputs.cache
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\obj\Debug\Car Racing.csprojAssemblyReference.cache
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\obj\Debug\Car_Racing.Game.resources
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\obj\Debug\Car_Racing.Menu.resources
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\bin\Debug\Car_Racing.exe.config
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\bin\Debug\Car_Racing.exe
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\bin\Debug\Car_Racing.pdb
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\obj\Debug\Car_Racing.Properties.Resources.resources
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\obj\Debug\Car_Racing.exe
+C:\Users\johnn\OneDrive\Desktop\Car racing game\projectA\obj\Debug\Car_Racing.pdb
