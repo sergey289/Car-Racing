@@ -20,11 +20,8 @@ namespace Car_Racing
         }
 
         Random ran = new Random();
-
         public static int gamespeed = 3;
-
         SoundPlayer song = new SoundPlayer("hit.wav");
-
         SoundPlayer song2 = new SoundPlayer("coins2.wav");
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -100,11 +97,7 @@ namespace Car_Racing
             if (ename1.Top >= 500)
             {
 
-
                 x = ran.Next(15, 350);
-
-              
-
 
                 ename1.Location = new Point(x,0);
 
@@ -119,10 +112,7 @@ namespace Car_Racing
             if (ename2.Top >= 500)
             {
 
-               
-
                 x = ran.Next(15, 350);
-
 
                 ename2.Location = new Point(x, 0);
 
@@ -138,7 +128,6 @@ namespace Car_Racing
             {
                 x = ran.Next(15, 350);
 
-
                 ename3.Location = new Point(x, 0);
 
             }
@@ -152,7 +141,6 @@ namespace Car_Racing
 
         }
 
-
         private void GameOver()
         {
 
@@ -164,19 +152,15 @@ namespace Car_Racing
 
                 pic_game_over.Visible = true;
 
-             
-
                 lab_score.Text = "Your Score is: " + coinsCol.ToString();
 
                 lab_score.Visible = true;
 
                 picture_car1.Controls.Add(gif_explosion);
 
-
                 gif_explosion.Location = new Point(-8, 5);
 
                 gif_explosion.BackColor = Color.Transparent;
-
 
                 gif_explosion.Visible = true;
 
@@ -193,8 +177,7 @@ namespace Car_Racing
             if (picture_car1.Bounds.IntersectsWith(ename2.Bounds))
             {
                 timer1.Enabled = false;
-
-               
+       
                 pic_game_over.Visible = true;
 
                 lab_score.Text = "Your Score is: " + coinsCol.ToString();
@@ -203,11 +186,9 @@ namespace Car_Racing
 
                 picture_car1.Controls.Add(gif_explosion);
 
-
                 gif_explosion.Location = new Point(-8, 5);
 
                 gif_explosion.BackColor = Color.Transparent;
-
 
                 gif_explosion.Visible = true;
 
@@ -220,9 +201,7 @@ namespace Car_Racing
 
             if (picture_car1.Bounds.IntersectsWith(ename3.Bounds))
             {
-                timer1.Enabled = false;
-
-               
+                timer1.Enabled = false;            
 
                 pic_game_over.Visible = true;
 
@@ -232,11 +211,9 @@ namespace Car_Racing
 
                 picture_car1.Controls.Add(gif_explosion);
 
-
                 gif_explosion.Location = new Point(-8, 5);
 
                 gif_explosion.BackColor = Color.Transparent;
-
 
                 gif_explosion.Visible = true;
 
@@ -252,13 +229,9 @@ namespace Car_Racing
 
                 if (truck1.Enabled)
                 {
-
-              
-
+             
                 timer1.Enabled = false;
-
-              
-
+                    
                 pic_game_over.Visible = true;
 
                 lab_score.Text = "Your Score is: " + coinsCol.ToString();
@@ -267,11 +240,9 @@ namespace Car_Racing
 
                 picture_car1.Controls.Add(gif_explosion);
 
-
                 gif_explosion.Location = new Point(-8, 5);
 
                 gif_explosion.BackColor = Color.Transparent;
-
 
                 gif_explosion.Visible = true;
 
@@ -331,9 +302,6 @@ namespace Car_Racing
                     pic_coin1.Visible = true;
 
                 }
-
-
-               
                
 
             }
@@ -396,16 +364,15 @@ namespace Car_Racing
         }
 
         int coinsCol = 0;
-
         private  void CoinCollectioncoins()
         {
             if (picture_car1.Bounds.IntersectsWith(pic_coin1.Bounds))
             {
                 coinsCol++;
+
                 lab_coins.Text = "Coins=" + coinsCol.ToString();
 
                 song2.Play();
-
 
                 x = ran.Next(0, 200);
 
@@ -416,10 +383,10 @@ namespace Car_Racing
             if (picture_car1.Bounds.IntersectsWith(pic_coin2.Bounds))
             {
                 coinsCol++;
+
                 lab_coins.Text = "Coins=" + coinsCol.ToString();
 
                 song2.Play();
-
 
                 x = ran.Next(0, 200);
 
@@ -431,8 +398,8 @@ namespace Car_Racing
           
 
         }
-
-        private void form2_KeyDown(object sender, KeyEventArgs e)
+     
+        private void form2_KeyDown(object sender, KeyEventArgs e)  // Game controls
         {
             if (e.KeyCode == Keys.Space)
             {
@@ -441,10 +408,6 @@ namespace Car_Racing
                 leb_space.Visible = false;
 
                 timer_contr.Enabled = true;
-
-               
-
-
 
 
            } else if (e.KeyCode == Keys.Enter)
@@ -469,7 +432,7 @@ namespace Car_Racing
 
                 pic_game_over.Visible = false;
 
-               gif_explosion.Visible = false;
+                gif_explosion.Visible = false;
 
                 lab_score.Visible = false;
 
@@ -502,9 +465,7 @@ namespace Car_Racing
             
 
                 if (e.KeyCode == Keys.Left){
-
-
-                 
+               
                 if (picture_car1.Left > 0)
                 
                  picture_car1.Left += -8;
@@ -524,31 +485,26 @@ namespace Car_Racing
             if (e.KeyCode == Keys.ControlKey)
             {
                 timer1.Enabled = false;
-
-               
-
+             
                 timer_contr.Enabled = false;
 
             }
 
 
         }
-
-       
+     
         int sec = 0;
         int count = 0;
         int houer = 0;
         int min = 0;
-        private void timer_contr_Tick(object sender, EventArgs e)
+        private void timer_contr_Tick(object sender, EventArgs e) // Timer of the game
         {
 
 
             if (sec != 60)
             {
 
-
-
-                if (count <= 9)
+             if (count <= 9)
                 {
 
                     count++;
@@ -576,12 +532,8 @@ namespace Car_Racing
                 {
 
 
-                
-
-
                 if (count <= 9)
                 {
-
 
                     sec = 0;
                     count++;
@@ -602,9 +554,6 @@ namespace Car_Racing
             
                 }
 
-
-                    
-
                 }
                 else
                 {
@@ -615,13 +564,9 @@ namespace Car_Racing
                     count++;
                     lab_min.Text = "00";
                     lab_sec.Text = "00";
-
                     houer++;
                     lab_hour.Text = "0" + houer.ToString();
 
-
-
-                    
 
                 }
 
@@ -630,27 +575,16 @@ namespace Car_Racing
             }
 
 
-           
-
-           
-
         }
 
         int nexlevelcount = 1;
         int nextlevel = 1;
         private void NewLevel(int speed)
         {
-
-             
-           
-
-            if (sec >= 15||min>=1||houer>=1)
+           if (sec >= 15||min>=1||houer>=1)
             {
 
-
-
-
-                if (truck1.Bounds.IntersectsWith(ename1.Bounds) || truck1.Bounds.IntersectsWith(ename2.Bounds) || truck1.Bounds.IntersectsWith(ename3.Bounds))
+            if (truck1.Bounds.IntersectsWith(ename1.Bounds) || truck1.Bounds.IntersectsWith(ename2.Bounds) || truck1.Bounds.IntersectsWith(ename3.Bounds))
                 {
                     truck1.Visible = false;
                     truck1.Enabled = false;
@@ -669,7 +603,6 @@ namespace Car_Racing
                 {
 
                    x = ran.Next(15, 350);
-
                     truck1.Location = new Point(x, 0);
 
                 }
@@ -709,13 +642,5 @@ namespace Car_Racing
         }
 
        
-        private void form2_Load(object sender, EventArgs e)
-        {
-           
-          
-        }
-
-
-        
     }
 }

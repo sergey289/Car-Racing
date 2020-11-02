@@ -21,8 +21,6 @@ namespace Car_Racing
 
         }
 
-       
-
         private bool blnButtonDown = false;
 
         private void btn_statrt_Paint(object sender, PaintEventArgs e)
