@@ -22,4 +22,4 @@ Home Screen:
 
 In Game:
 
-![Screenshot_2](https://user-images.githubusercontent.com/63552702/97798440-ba9f2f80-1c2e-11eb-81d2-14deb3fc8074.png)
+![Screenshot_1](https://user-images.githubusercontent.com/63552702/102898240-dfb36000-4471-11eb-977f-a278ab7a6525.png)
