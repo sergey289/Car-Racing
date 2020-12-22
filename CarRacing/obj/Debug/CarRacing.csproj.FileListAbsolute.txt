@@ -1,0 +1,11 @@
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\bin\Debug\CarRacing.exe.config
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\bin\Debug\CarRacing.exe
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\bin\Debug\CarRacing.pdb
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\obj\Debug\CarRacing.csprojAssemblyReference.cache
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\obj\Debug\CarRacing.Menu.resources
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\obj\Debug\CarRacing.Properties.Resources.resources
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\obj\Debug\CarRacing.csproj.GenerateResource.cache
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\obj\Debug\CarRacing.csproj.CoreCompileInputs.cache
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\obj\Debug\CarRacing.exe
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\obj\Debug\CarRacing.pdb
+C:\Users\johnn\OneDrive\Desktop\Project for GitHub\Car racing game\CarRacing\obj\Debug\CarRacing.GameWindow.resources
