@@ -1,11 +1,9 @@
 # Car-Racing 
 
-## About
-
 simple top down car racing game. The game principles are as the clock goes up so does speed of the game, the is over once you hit another car. this project implemented by using C#, .NET and Windows Forms
 
 
-  controls list for this Game:
+  Controls list for this Game:
 
  
 - RIGHT Arrow : Move Sideways(Right)
