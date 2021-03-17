@@ -3,7 +3,7 @@
 simple top down car racing game. The game principles are as the clock goes up so does speed of the game, the is over once you hit another car. this project implemented by using C#, .NET and Windows Forms
 
 
-  Controls list for this Game:
+ ### Controls list:
 
  
 - RIGHT Arrow : Move Sideways(Right)
@@ -12,7 +12,7 @@ simple top down car racing game. The game principles are as the clock goes up so
 - Space resumes the game
 - Enter Resets the game
 
-### ScreenShots 📸 of the game :
+## ScreenShots 📸:
 
 Home Screen:
 
