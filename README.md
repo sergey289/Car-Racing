@@ -1,6 +1,6 @@
-# Car Racing
+# Car Racing  🏎
 
-little top down car racing game. The game principles are as the clock goes up so does speed of the game, the is over once you hit another car. this project implemented by using C#, .NET and Windows Forms
+Simple 2D Car Racing game. The principles of the game are not to crash into another car, hold out the greatest amount of time and collect as many coins as possible. The process of the game is implemented in the following way, in the game there is a timer which will increase and together with the speed of the car, and everything ends when you crash into another car. this project is implemented using C #, .NET and Windows Forms
 
 
  ### Controls list:
@@ -8,11 +8,11 @@ little top down car racing game. The game principles are as the clock goes up so
  
 - RIGHT Arrow : Move Sideways(Right)
 - LEFT Arrow : Move Sideways (Left)
-- Ctrl Stops the game
-- Space resumes the game
-- Enter Resets the game
+- Ctrl: Stops the game
+- Space: resumes the game
+- Enter: Resets the game
 
-## ScreenShots 📸:
+### ScreenShots 📸:
 
 Home Screen:
 
